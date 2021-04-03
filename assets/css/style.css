@@ -16,6 +16,10 @@ textarea {
   height: 100%;
 }
 
+.container {
+  margin-top: 310px;
+}
+
 .jumbotron {
   text-align: center;
   background-color: rgba(52, 134, 235, 0.990);
