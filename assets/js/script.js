@@ -28,7 +28,7 @@ function generateLoadPlanner() {
         var hour = moment(i, ["H"]).format("hA");
         var hourIn24Hours = moment(i, ["H"]).format("HH");
         var currentHour = moment().format("HH");
-        var plannerRows = $("<div>").attr("id", "time-" + i).addClass("row border-0 time-block");
+        var plannerRows = $("<div>").attr("id", "time-" + i).addClass("row time-block");
         var plannerCols1 = $("<div>");
         var plannerCols2 = $("<textarea>");
         var plannerCols3 = $("<div>");

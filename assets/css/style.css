@@ -16,6 +16,7 @@ textarea {
   height: 100%;
 }
 
+/* Add margin on top of container, in order to push the planner below the header */
 .container {
   margin-top: 310px;
 }
@@ -48,10 +49,12 @@ textarea {
   border-top: 1px solid white;
 }
 
+/* Adds color to all odd rows in the planner */
 .row:nth-child(odd) > .hour {
   background-color: #dde294;
 }
 
+/* Adds color to all even rows in the planner */
 .row:nth-child(even) > .hour {
   background-color: #a5e2e2;
 }
@@ -92,53 +95,53 @@ textarea {
   color: black;
 }
 
+/* Adjust site appeareance for devices screen up to 759px */
 @media screen and (max-width: 759px) {
+
+  body {
+    background-color: rgba(0, 3, 32, 0.89);
+  }
+
   .container {
     margin-top: 395px;
     position: relative;
   }
+
+  .hour {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+
   .row {
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: 5px;
   }
 
-  body {
-    background-color: rgba(3, 4, 88, 0.794);
-  }
 }
 
+/* Adjust site appeareance for devices screen up to 574px */
 @media screen and (max-width: 574px) {
+
   .container {
     margin-top: 330px;
-    position: relative;
   }
   
   .row {
-    margin-left: 0px;
-    margin-right: 0px;
     margin-bottom: 10px;
-  }
-
-  body {
-    background-color: rgba(3, 4, 88, 0.794);
+    
   }
 }
 
-
+/* Adjust site appeareance for devices screen up to 532px */
 @media screen and (max-width: 532px) {
+  
   .container {
     margin-top: 355px;
-    position: relative;
   }
 
   .row {
-    margin-left: 0px;
-    margin-right: 0px;
     margin-bottom: 15px;
   }
 
-  body {
-    background-color: rgba(3, 4, 88, 0.794);
-  }
 }
