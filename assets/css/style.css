@@ -97,6 +97,15 @@ textarea {
     margin-top: 395px;
     position: relative;
   }
+  .row {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+  }
+
+  body {
+    background-color: rgba(3, 4, 88, 0.794);
+  }
 }
 
 @media screen and (max-width: 574px) {
@@ -104,12 +113,32 @@ textarea {
     margin-top: 330px;
     position: relative;
   }
+  
+  .row {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+
+  body {
+    background-color: rgba(3, 4, 88, 0.794);
+  }
 }
 
 
 @media screen and (max-width: 532px) {
   .container {
-    margin-top: 350px;
+    margin-top: 355px;
     position: relative;
+  }
+
+  .row {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+  }
+
+  body {
+    background-color: rgba(3, 4, 88, 0.794);
   }
 }

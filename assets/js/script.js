@@ -106,4 +106,5 @@ $(".saveBtn").on("click", function () {
 
     // Save text in local storage
     localStorage.setItem(plannerTime, plannerDescription);
+
 });
