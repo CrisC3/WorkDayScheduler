@@ -100,16 +100,24 @@ textarea {
 
   body {
     background-color: rgba(0, 3, 32, 0.89);
+    
   }
 
   .container {
-    margin-top: 395px;
+    margin-top: 10px;
     position: relative;
   }
 
   .hour {
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
+  }
+
+  .jumbotron {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    border-bottom: 5px solid black;
   }
 
   .row {
@@ -124,7 +132,7 @@ textarea {
 @media screen and (max-width: 574px) {
 
   .container {
-    margin-top: 330px;
+    /* margin-top: 330px; */
   }
   
   .row {
@@ -137,7 +145,7 @@ textarea {
 @media screen and (max-width: 532px) {
   
   .container {
-    margin-top: 355px;
+    /* margin-top: 260px; */
   }
 
   .row {
