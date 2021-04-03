@@ -14,7 +14,7 @@ The site allows you to have your own daily planner.
 ![Website third view, with future hour slots](./assets/screenshots/3-third-view.jpg)
 
 **Fourth view**  
-![Website fourth view](./assets/screenshots/3-third-view.jpg)
+![Website fourth view](./assets/screenshots/4-fourth-view.jpg)
 
 ## Link
 https://crisc3.github.io/WorkDayScheduler/
