@@ -40,13 +40,13 @@ function generateLoadPlanner() {
             // First if: adds the hourly column.
             if(j == 0) {
                 // Appends to the planner rows variable as the first column.
-                plannerRows.append(plannerCols1.addClass("hour border-top border-end border-bottom col-2 col-sm-2 col-md-1 d-flex align-items-center justify-content-end").append(hour));
+                plannerRows.append(plannerCols1.addClass("hour border-top border-end border-bottom col-2 col-sm-1 col-md-1 d-flex align-items-center justify-content-end").append(hour));
             }
             // Second if: adds the text area column
             else if (j == 1) {
 
                 // Variable to add the second column class from the variable plannerCols2.
-                var textAreaCol = plannerCols2.addClass("description p-auto border col-8 col-sm-8 col-md-10");
+                var textAreaCol = plannerCols2.addClass("description p-auto border col-8 col-sm-9 col-md-10");
 
                 // Appends to the planner rows variable as the second column.
                 plannerRows.append(textAreaCol);
