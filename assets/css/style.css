@@ -95,8 +95,11 @@ textarea {
   color: black;
 }
 
+
+
 /* Adjust site appeareance for devices screen up to 759px */
-@media screen and (max-width: 759px) {
+@media screen and (max-width: 759px),
+screen and (max-height: 500px) {
 
   body {
     background-color: rgba(0, 3, 32, 0.89);
