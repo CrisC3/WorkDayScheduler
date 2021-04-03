@@ -15,7 +15,7 @@ function currentDateTime() {
 }
 
 // Generates the planner layout and loads from the local storage.
-function generatePlanner() {
+function generateLoadPlanner() {
     
     // Variables set to start and end hours.
     var dayHourStart = 0;
@@ -85,21 +85,20 @@ function generatePlanner() {
     }
 }
 
-// Function currentDateTime is added below, for when the page loads
+// Function currentDateTime is added below, for when the page loads.
 currentDateTime();
 
-// Set to run the currentDateTime function, to refresh today's date time every 1 second
+// Set to run the currentDateTime function, to refresh today's date time every 1 second.
 setInterval(currentDateTime, 1000);
 
-// Creates the daily planner
-generatePlanner();
+// Creates the daily planner and loads any data from local storage.
+generateLoadPlanner();
 
-//new generatePlanner().loadFromLocalStorage();
 
+// On click event for when you click on Save button icon.
 $(".saveBtn").on("click", function () {
-    // Get nearby values of the description in JQuery
     
-    // Variables to get the source of the click by ID, 
+    // Variables to get the source of the click by ID
     var plannerTime = $(this).parent().attr("id");
     var plannerDescription = $(this).siblings(".description").val();
 
@@ -107,4 +106,4 @@ $(".saveBtn").on("click", function () {
 
     // Save text in local storage
     localStorage.setItem(plannerTime, plannerDescription);
-})
+});
