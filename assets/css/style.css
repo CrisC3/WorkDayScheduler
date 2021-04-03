@@ -91,3 +91,25 @@ textarea {
   transition: all 0.3s ease-in-out;
   color: black;
 }
+
+@media screen and (max-width: 759px) {
+  .container {
+    margin-top: 395px;
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 574px) {
+  .container {
+    margin-top: 330px;
+    position: relative;
+  }
+}
+
+
+@media screen and (max-width: 532px) {
+  .container {
+    margin-top: 350px;
+    position: relative;
+  }
+}
