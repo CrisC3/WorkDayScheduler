@@ -31,7 +31,7 @@ function generateLoadPlanner() {
         var plannerRows = $("<div>").attr("id", "time-" + i).addClass("row time-block");
         var plannerCols1 = $("<div>");
         var plannerCols2 = $("<textarea>");
-        var plannerCols3 = $("<div>");
+        var plannerCols3 = $("<button>");
         var plannerCols3Save = $("<i>");
 
         // For loop to generate the columns per row.

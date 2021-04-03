@@ -90,10 +90,14 @@ textarea {
   color: white;
 }
 
-.saveBtn i:hover {
+.saveBtn:focus {
+  outline: none;
+}
+
+.saveBtn:hover, i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
-  color: black;
+  color: black;  
 }
 
 
