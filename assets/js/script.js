@@ -46,7 +46,7 @@ function generateLoadPlanner() {
             else if (j == 1) {
 
                 // Variable to add the second column class from the variable plannerCols2.
-                var textAreaCol = plannerCols2.addClass("description p-auto border col-8 col-sm-9 col-md-10");
+                var textAreaCol = plannerCols2.addClass("description p-auto border col-7 col-sm-9 col-md-10");
 
                 // Appends to the planner rows variable as the second column.
                 plannerRows.append(textAreaCol);
@@ -68,7 +68,7 @@ function generateLoadPlanner() {
             }
             else {
                 // ELSE: adds the save icon area column
-                var lockDiv = plannerCols3.addClass("saveBtn col-2 col-sm-2 col-md-1 border rounded-end d-flex align-items-center justify-content-center");
+                var lockDiv = plannerCols3.addClass("saveBtn col-3 col-sm-2 col-md-1 border rounded-end d-flex align-items-center justify-content-center");
                 var floppySaveIcon = plannerCols3Save.addClass("fas fa-save");
                 plannerRows.append(lockDiv.append(floppySaveIcon));
             }
